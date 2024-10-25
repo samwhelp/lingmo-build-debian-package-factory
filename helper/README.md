@@ -1,9 +1,11 @@
 
 
-# helper
+# Helper
 
 
-## help
+
+
+## Help
 
 run
 
@@ -14,6 +16,7 @@ make help
 show
 
 ```
+
 Usage:
 
 	$ make [action]
@@ -23,7 +26,10 @@ Example:
 	$ make
 	$ make help
 
-	$ make prepare
+	$ make recipe
+
+	$ make build-essential
+	$ make build
 
 
 Debug:
