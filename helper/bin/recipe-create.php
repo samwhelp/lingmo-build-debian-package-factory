@@ -251,23 +251,7 @@ class App {
 
 		return;
 
-
-
-
-		$config_file_path = __DIR__ . '/lingmo-build/Configs/lingmo-core.json';
-
-		$config = (new BuildTargetConfig)
-			->setConfigFilePath($config_file_path)
-			->load();
-
-
-		var_dump($config->ref("x"));
-
-		var_dump($config);
-
-		var_dump ('yes');
 	}
-
 
 }
 
