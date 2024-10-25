@@ -6,6 +6,13 @@
 
 
 ##
+## Load: Master / Mod / Prepare
+##
+
+. "${THE_MAIN_EXT_MASTER_MOD_DIR_PATH}/prepare.sh"
+
+
+##
 ## Load: Master / Mod / Repo
 ##
 

@@ -6,6 +6,13 @@
 
 
 ##
+## Load: Master / Sys / Parepare
+##
+
+. "${THE_MAIN_EXT_MASTER_SYS_DIR_PATH}/prepare.sh"
+
+
+##
 ## Load: Master / Sys / Repo
 ##
 
