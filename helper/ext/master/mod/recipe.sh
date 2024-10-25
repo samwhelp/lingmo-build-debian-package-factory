@@ -7,7 +7,7 @@
 
 mod_recipe () {
 
-	sys_recipe
+	sys_recipe "${THE_MAIN_BIN_DIR_PATH}/recipe-create.php"
 
 	return 0
 
