@@ -48,11 +48,9 @@ Example:
 	$ make
 	$ make help
 
-	$ make repo-clone
-	$ make repo-reclone
+	$ make recipe
 
 	$ make build-essential
-	$ make build-dep
 	$ make build
 
 

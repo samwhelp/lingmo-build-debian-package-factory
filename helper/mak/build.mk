@@ -10,6 +10,6 @@ build-essential:
 .PHONY: build-essential
 
 
-sure-build:
-	@sure-build.sh
-.PHONY: sure-build
+#sure-build:
+#	@sure-build.sh
+#.PHONY: sure-build
