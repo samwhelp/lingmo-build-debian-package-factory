@@ -30,13 +30,13 @@ THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../ext"
 
 
 ################################################################################
-### Head: Portal / build_dep
+### Head: Portal / recipe
 ##
 
-portal_build_dep () {
+portal_recipe () {
 
 
-	mod_build_dep
+	mod_recipe
 
 
 	mod_main_signal_bind
@@ -47,7 +47,7 @@ portal_build_dep () {
 }
 
 ##
-### Tail: Portal / build_dep
+### Tail: Portal / recipe
 ################################################################################
 
 
@@ -57,7 +57,7 @@ portal_build_dep () {
 
 __main__ () {
 
-	portal_build_dep "${@}"
+	portal_recipe "${@}"
 
 }
 
