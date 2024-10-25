@@ -154,7 +154,7 @@ class App {
 	public function run ()
 	{
 
-		$profile_dir_path = __DIR__ . '/lingmo-build/Configs';
+		$profile_dir_path = dirname(__DIR__, 2) . '/tmp/lingmo-build/src/lingmo-build/Configs';
 
 		$profile = (new BuildTargetProfile)
 			->setProfileDirPath($profile_dir_path)
